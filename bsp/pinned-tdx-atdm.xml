@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote alias="repo" fetch="https://git.toradex.com" name="tdx"/>
+  <remote alias="repo" fetch="https://github.com/DeviceSolutions" name="atdm"/>
+  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="bbada14657006718ebc3568e762c293369fe0098" upstream="master"/>
+  <project name="meta-toradex-nxp" path="layers/meta-toradex-nxp" remote="atdm" revision="master"/>
+  <project name="meta-toradex-ti.git" path="layers/meta-toradex-ti" remote="tdx" revision="1e660d3369cd4a7b56a8ba5913ee07383e7308b7" upstream="master"/>
+</manifest>
