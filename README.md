@@ -12,12 +12,7 @@ $  curl https://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin
 $  chmod a+x ~/bin/repo
 ```
 
-To simplify installation we provide a manifest for the repo tool which manages
-the different git repositories and the used versions.
-[more on repo](https://code.google.com/p/git-repo/)
-
 This manifest allows setting up TorizonCore or Toradex Images for ATDM platform.
-
 Final build will prepare Tezi image that can be installed on ATDM board.
 
 ## Pre-requisite for yocto compilation
