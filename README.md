@@ -29,7 +29,7 @@ Final build will prepare Tezi image that can be installed on ATDM board.
 Currently we are supporting kirkstone branch. We have also added support for master branch but not sure for compilation success. <br/>
 
 ```
-$ repo init -u https://github.com/DeviceSolutions/toradex-manifest.git -b kirkstone-6.x.y -m torizoncore/default-atdm.xml
+$ repo init -u https://github.com/DeviceSolutions/toradex-manifest.git -b kirkstone-6.x.y -m torizoncore/atdm.xml
 $ repo sync
 ```
 
